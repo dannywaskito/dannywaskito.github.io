@@ -203,9 +203,25 @@ img
 {
 	max-width: 100%;
 }
-.project .content .projectBx p
+.project .content .projectBx p,
+.project .content .projectBx a
 {
 	text-align: center;
+	text-decoration: none;
+}
+.button
+{
+	position: relative;
+	background: #2196f3;
+	display: inline-block;
+	color: #fff;
+	margin-top: 20px;
+	padding: -5px -5px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 500;
 }
 .work
 {
