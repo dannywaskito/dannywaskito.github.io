@@ -10,6 +10,7 @@
     <!-- End Font Awesome 4 -->
     <!-- Pure Css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- End Pure Css -->
     <!-- Favicon -->
      <link rel="shortcut icon" href="images/mdw.jpg">
@@ -29,7 +30,7 @@
         </ul>
     </header>
     <section class="banner" id="home">
-<div class="textBx">
+<div class="textBx" data-aos="slide-right">
     <h2>Hello, I'm <br><span>M. Danny Waskito</span></h2>
     <h3>I'm Web Developer & Web Design</h3>
     <a href="#about" class="btn btn1">About Me</a>
@@ -40,13 +41,13 @@
             <h2>About Me</h2>
         </div>
         <div class="content">
-            <div class="contentBx w50">
+            <div class="contentBx w50" data-aos="fade-up">
                 <h3>Muhammad Danny Waskito</h3>
                 <p>Saya adalah Mahasiswa Lulusan S1 dari Universitas Muhammadiyah Prof DR Hamka mengambil Jurusan Teknik Informatika. Saat ini saya sedang bergelut di dunia pemrograman khususnya Web Development Dan Web Design.</p>
                 
             </div>
             <div class="w50">
-                <img src="images/mdw.png" class="img">
+                <img src="images/mdw.png" class="img" data-aos="zoom-in">
             </div>
         </div>
     </section>
@@ -55,12 +56,12 @@
             <h2>Skill</h2>
         </div>
         <div class="content">
-            <div class="skillBx">
+            <div class="skillBx" data-aos="zoom-in-down">
                 <img src="images/icon1.png">
                 <h2>Web Design</h2>
                 <p>Html, Css, Bootstrap, Materialize Css, React JS.</p>
             </div>
-            <div class="skillBx">
+            <div class="skillBx" data-aos="zoom-in-down">
                 <img src="images/icon2.png">
                 <h2>Web Development</h2>
                 <p>PHP, Codeigniter, MySQL, Javascript</p>
@@ -80,7 +81,7 @@
                 <h2>Content Writing</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt repudiandae veritatis temporibus non.</p>
             </div> -->
-            <div class="skillBx">
+            <div class="skillBx" data-aos="zoom-in-down">
                 <img src="images/icon6.png">
                 <h2>Video Editing</h2>
                 <p>Wondershare Filmora, Adobe After Effect</p>
@@ -92,7 +93,7 @@
             <h2>Project</h2>
         </div>
         <div class="content">
-            <div class="projectBx">
+            <div class="projectBx" data-aos="zoom-out">
                 <img src="images/sekolah.jpg" >
                 <p>Sistem Informasi Sekolah Menggunakan Codeigniter 3 <br>
                 <button id="myBtn" class="button button1"><i class="fa fa-github"></i> Open Github</button></p>
@@ -113,13 +114,13 @@
                 </div>
 
             </div>
-            <div class="projectBx">
+            <div class="projectBx" data-aos="zoom-out">
                 <img src="images/pantau-covid19.jpg" >
                 <p>Sistem Informasi update Covid19 Menggunakan Codeigniter 3 <br>
                  <a href="https://github.com/dannywaskito/pantau-corona" target="_blank" class="button button1"><i class="fa fa-github"></i> Open Github</a></p>
 
             </div>
-                <div class="projectBx">
+                <div class="projectBx" data-aos="zoom-out">
                 <img src="images/landing-page.jpg" >
                 <p>Landing Page Curriculum vitae Menggunakan Materialize CSS
                     <br>
@@ -127,7 +128,7 @@
                  <a href="https://github.com/dannywaskito/landing-page" target="_blank" class="button button1"><i class="fa fa-github"></i> Open Github</a></p>
 
             </div>
-            <div class="projectBx">
+            <div class="projectBx" data-aos="zoom-out">
                 <img src="images/E-Inventory.jpg">
                 <p>Sistem Informasi E-Inventory Menggunakan Codeigniter 4 <br>
                  <button id="btn1" class="button button1"><i class="fa fa-github"></i> Open Github</button></p>
@@ -159,11 +160,11 @@
         <h2>Work Experience</h2>
         </div>
         <div class="content">
-            <div class="workBx">
+            <div class="workBx" data-aos="zoom-out-right">
                 <p>Menginputkan Data Penduduk ke Dalam Micorosoft Office Excel</p>
                 <h3>Freelancer Data Entry Tahun 2015 <br><span>BKKBN Jakarta Timur</span></h3>
             </div>
-            <div class="workB">
+            <div class="workBx" data-aos="zoom-out-left">
                 <p>Mengembangkan web Company Profile dengan menggunakan Bootstrap</p>
                 <h3>Internship Web Developer 21 Agustus 2017 - 21 September 2017 <br><span>Manimonki Studio Kebon Jeruk Jakarta Barat</span></h3>
             </div>
@@ -174,7 +175,7 @@
         <h2>Contact</h2>
         </div>
         <div class="content">
-            <div class="contactInfo">
+            <div class="contactInfo" data-aos="zoom-in-right">
                 <h3>Contact Info</h3>
                 <div class="contactInfoBx">
                     <div class="box">
@@ -224,7 +225,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="formBx">
+            <div class="formBx" data-aos="zoom-in-left">
         <form>
     <h3>Message Me</h3>
     <input type="text" class="" placeholder="Your Name" required>
@@ -252,5 +253,9 @@
         }
     </script>
  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
