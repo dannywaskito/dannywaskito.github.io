@@ -474,7 +474,7 @@ img
 
 /*End Modal*/
 /*Responsive Web*/
-@media (max-width: 991px)
+@media (max-width: 780px)
 {
 	header,
 	header.sticky
