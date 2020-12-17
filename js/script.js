@@ -13,7 +13,7 @@ window.onclick = function(event) {
   }
 }
 var modal = document.getElementById("myModal");
-var btn = document.getElementById("btn");
+var btn = document.getElementById("btn1");
 var span = document.getElementsByClassName("close")[0]; 
 btn.onclick = function() {
   modal.style.display = "block";
