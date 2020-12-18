@@ -8,9 +8,6 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
-body{
-	overflow-x: hidden;
-}
 section
 {
 	padding: 100px;
@@ -449,7 +446,7 @@ img
   top: 15px;
 }
 /*Responsive Web*/
-@media (max-width: 780px)
+@media (max-width: 991px)
 {
 	header,
 	header.sticky
