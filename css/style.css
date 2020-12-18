@@ -405,26 +405,25 @@ img
   font-size: 20px;
   text-align:center;
   padding: 20px;
-  margin: -10px auto;
+  margin: -20px auto;
   position: relative;
-  width: 120px;
+  width: 200px;
 }
 
 .tooltip:before {
   content: attr(data-description);
-  background: white;
-  color: #a4c100;
+  background: #2e2e2e;
+  color: #ffffff;
   padding: 20px;
   position: absolute;
   left: 50%;
   top: -30px;
-  margin-left: -100px;
+  margin-left: -120px;
   width: 200px;
   line-height: 25px;
-  border-radius: 5px;
+  border-radius: 10px;
   opacity: 0;
   transition: .25s ease-in-out;
-  border-top: 5px solid #ccb881;
 }
 
 .tooltip:after {
