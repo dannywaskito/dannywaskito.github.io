@@ -197,6 +197,7 @@ img
 .skill .content .skillBx:hover
 {
 	background: #2196f3;
+	transition: 0.5s;
 }
 .skill .content .skillBx img
 {
