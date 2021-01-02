@@ -16,6 +16,10 @@
      <!-- End Favicon -->
 </head>
 <body>
+     <div class="loader">
+      <div class="ring">
+</div>
+</div>
     <header>
         <a href="#" class="logo">M Danny Waskito</a>
         <div class="toggle" onclick="toggleMenu()"></div>
@@ -225,6 +229,19 @@
             menu.classList.toggle('active');
         }
     </script>
+    <!-- Loader -->
+    <script>
+    const loader = document.querySelector(".loader");
+    window.onload = function(){
+      setTimeout(function(){
+        loader.style.opacity = "0";
+        setTimeout(function(){
+          loader.style.display = "none";
+        }, 500);
+      },1500);
+    }
+    </script>
+    <!-- End Loader -->
     <!-- End sticky -->
     <!-- Animate On Scroll  -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
