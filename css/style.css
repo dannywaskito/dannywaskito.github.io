@@ -86,7 +86,7 @@ section
   align-items: center;
   justify-content: center;
   background: #fff;
-  transition: all 3.5s;
+  transition: all 1.5s;
 }
 .loader .ring{
   height: 45px;
@@ -106,11 +106,11 @@ section
   border-radius: 50%;
   border: 5px solid #ff3d00;
   border-top-color: transparent;
-  animation: rotate 3.5s linear infinite;
+  animation: rotate 1.5s linear infinite;
 }
 @keyframes rotate {
   100%{
-    transform: rotate(360deg);
+    transform: rotate(760deg);
   }
 }
 /*End Loader*/
