@@ -14,7 +14,7 @@ section
 {
 	padding: 100px;
 }
-
+/*Header*/
 .banner 
 {
 	position: relative;
@@ -169,6 +169,8 @@ img
 {
 	max-width: 50%;
 }
+/*End Header*/
+/*Skill*/
 .skill
 {
 	background: #111;
@@ -209,6 +211,8 @@ img
 	font-size: 20px;
 	font-weight: 600;
 }
+/*End Skill*/
+/*Project*/
 .project .content
 {
 	display: flex;
@@ -230,7 +234,8 @@ img
 	text-align: center;
 	text-decoration: none;
 }
-/*Buttonn*/
+/*End Project*/
+/*Buttonn 3D*/
 .buttonn {
   display: inline-block;
   padding: 15px 25px;
@@ -253,7 +258,7 @@ img
   box-shadow: 0 5px #404040;
   transform: translateY(4px);
 }
-/*End buttonn*/
+/*End buttonn 3D*/
 .button{
   position: relative;
   display: inline-block;
@@ -285,6 +290,7 @@ img
 .button1:hover::before{
   height: 380%;
 }
+/*Work Experience*/
 .work
 {
 	background: #f7f7f7;
@@ -323,6 +329,8 @@ img
 	font-size: 14px;
 	font-weight: 400;
 }
+/*End Work Experience*/
+/*Contact*/
 .contact
 {
 	background: #111;
@@ -418,6 +426,8 @@ img
 	text-decoration: none;
 	color: #fff;
 }
+/*End Contact*/
+/*Copyright*/
 .copyright
 {
 	background: #000;
@@ -425,6 +435,8 @@ img
 	text-align: center;
 	padding: 10px;
 }
+/*End Copyright*/
+/*Tooltip Button*/
 .tooltip {
   font-size: 20px;
   text-align:center;
@@ -472,6 +484,7 @@ img
   opacity: 1;
   top: 15px;
 }
+/*End Tooltip Button*/
 /*Responsive Web*/
 @media (max-width: 991px)
 {
