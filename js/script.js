@@ -12,3 +12,8 @@
         document.getElementById("dismiss-popup-btn").addEventListener("click",function(){
         	document.getElementsByClassName("popup")[0].classList.remove("active");
         });
+
+     mediumZoom('.zoom', {
+        margin:50,
+        background: '#fff'
+     });   
