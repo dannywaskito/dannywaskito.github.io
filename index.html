@@ -17,7 +17,10 @@
     <!-- End Favicon -->
 </head>
 
-<body>
+<body onload="hide_loading();">
+<div class="loading overlay">
+       <div class="lds-hourglass"></div>
+   </div>
     <header>
         <a href="#" class="logo">M Danny Waskito</a>
         <div class="toggle" onclick="toggleMenu()"></div>
@@ -31,10 +34,10 @@
         </ul>
     </header>
     <section class="banner" id="home">
-        <div class="textBx" data-aos="slide-right">
+        <div class="textBx">
             <h2>Hello, I'm <br><span>M. Danny Waskito</span></h2>
             <h3>I'm <span class="typing"></span></h3>
-            <a href="#about" class="buttonn">About Me</a>
+           <!--  <a href="#about" class="buttonn">About Me</a> -->
         </div>
     </section>
     <section class="about" id="about">
