@@ -17,11 +17,11 @@
     <!-- End Favicon -->
 </head>
 
-<body onload="hide_loading();">
-    <div class="loading overlay">
-     <div class="lds-hourglass"></div>
- </div>
- <header>
+<body>
+ <div class="loader-bg">
+    <div class="loader"></div>
+</div>
+<header>
     <a href="#" class="logo">M Danny Waskito</a>
     <div class="toggle" onclick="toggleMenu()"></div>
     <ul class="menu">
@@ -287,6 +287,14 @@
     <!-- <script type="text/javascript" src="js/particles.js"></script>
         <script type="text/javascript" src="js/app.js"></script> -->
         <!-- End particles.js -->
-    </body>
+        <!-- Preloader -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+          setTimeout(function(){
+            $('.loader-bg').fadeToggle();
+        }, 1500);
+    </script>
+    <!-- End Preloader -->
+</body>
 
-    </html>
+</html>
