@@ -59,7 +59,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact"><i class="fa fa-phone"></i> Kontak</a>
           </li>
-           <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link js-scroll" href="https://muhdannyblog.blogspot.com/" target="_blank"><i class="fa fa-newspaper-o"></i> Blog</a>
           </li>
         </ul>
@@ -102,11 +102,13 @@
                       <div class="about-info">
                         <p><span class="title-s">Nama Lengkap: <br></span> <span>Muhammad Danny Waskito, S.T</span></p>
                         <p><span class="title-s">Web Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>dannywaskito64@gmail.com</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
+                        <p><span class="title-s">Email: <br></span>
+                         <span><a href="mailto:dannywaskito64@gmail.com">dannywaskito64@gmail.com</a></span></p>
+                         <span><a href="mailto:hi@muhdannywaskito.com">hi@muhdannywaskito.com</a></span></p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="skill-mf">
                     <p class="title-s">Skill</p>
                     <span>HTML</span> <span class="pull-right">90%</span>
                     <div class="progress">
@@ -445,7 +447,28 @@
           </div>
         </div>
       </div>
-
+      <div class="col-md-4">
+        <div class="work-box">
+          <a href="assets/img/work/approval.webp" data-gall="portfolioGallery" class="venobox">
+            <div class="work-img">
+              <img src="assets/img/work/approval.webp" alt="" class="img-fluid">
+            </div>
+          </a>
+          <div class="work-content">
+            <div class="row">
+              <div class="col-sm-8">
+                <h2 class="w-title">Sistem Approval Menggunakan Laravel 8</h2>
+                <div class="w-more">
+                  <span class="w-ctegory">Laravel 8</span> / <span class="w-date">6 September. 2021</span>
+                  <a href="#" target="_blank" class="btn btn-success btn-sm">Open Github</a>
+                  <a href="https://tes.muhdannywaskito.com/public/login" target="_blank" class="btn btn-success btn-sm">Demo</a><br><br>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section><!-- End Portfolio Section -->
@@ -603,6 +626,27 @@
     .catch(error => console.error('Error!', error.message))
   })
 </script>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Akun Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Admin dannywaskito10@gmail.com <br>
+        user waskitodanny14@gmail.com <br>
+        password: rahasia123
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
